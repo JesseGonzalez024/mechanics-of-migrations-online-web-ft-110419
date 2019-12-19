@@ -1,6 +1,5 @@
 class CreateArtists < ActiveRecord::Migration
 
-
   def self.create_table
     sql = <<-SQL
       CREATE TABLE IF NOT EXISTS songs (
